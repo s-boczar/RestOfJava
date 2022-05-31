@@ -12,11 +12,12 @@ public class AllShapes {
     private Line _line;
     private Circle _circle;
     private Polygon _polygon;
-
+    private String s = "HEEHOO";
     /**
      * Creates a bunch of shapes and fills them in the _shapes array.
      */
     public void createShapes() {
+    	System.out.println(s);
         _point = new Point(Color.RED, 40, 10);
         _line = new Line(Color.BLUE, 30, 15, 120, 80);
         _circle = new Circle(Color.PINK, -100, 40, 60);
